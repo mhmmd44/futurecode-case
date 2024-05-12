@@ -1,0 +1,346 @@
+/* navbar */
+.navbar {
+  width: 60%;
+  display: flex;
+  margin-left: 20%;
+  margin-top: 2%;
+  border-radius: 24px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.collapse {
+  margin-right: 3%;
+}
+.navbar-nav .nav-link {
+  color: white !important;
+  margin-right: 25px !important;
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: rgb(239, 146, 16) !important;
+  border-bottom: solid 1px rgb(239, 146, 16) !important;
+}
+.offcanvas-body ul li a {
+  color: black !important;
+}
+.offcanvas-body ul li {
+  border: solid 1px;
+}
+/* category section */
+.categories {
+  width: 80%;
+  margin-top: 7% !important;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 3% 10%;
+}
+.categories .row {
+  object-fit: cover;
+  overflow: hidden;
+}
+.category {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.categoryBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.categoryImgBox {
+  width: 100%;
+  height: 300px;
+  max-height: 300px;
+  border-radius: 10px;
+  border: 1px solid;
+  object-fit: cover;
+  overflow: hidden;
+}
+.categoryImgBox img {
+  width: 100%;
+  height: 100%;
+}
+/* slider start */
+.slideVisit {
+  width: 100%;
+  height: 1000px;
+  margin-top: 8%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.slideVisit h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2%;
+  gap: 15px;
+}
+.carouselBox {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.carouselBox .carousel-item {
+  width: 100%;
+  height: 700px;
+  border-radius: 5px;
+  transition: all 1s ease-in-out;
+}
+.carousel-item img {
+  height: 100%;
+  border-radius: 5px;
+}
+.carousel-caption {
+  position: relative;
+  top: 0;
+  right: 0;
+}
+.carousel-caption h5,
+.carousel-caption p {
+  color: black;
+}
+.carousel-caption h5 {
+  text-transform: uppercase;
+}
+.carousel-indicators img {
+  width: 70px;
+  display: flex;
+}
+.carousel-indicators button {
+  width: max-content !important;
+}
+.carousel-indicators {
+  height: 50px;
+  display: flex;
+  object-fit: cover;
+  overflow: hidden;
+  position: unset;
+}
+/* about start */
+.about {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  overflow: hidden;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+  margin-top: -10%;
+}
+.aboutBody {
+  width: 100%;
+  height: 100%;
+  margin-top: 2%;
+  display: flex;
+  border: 1pz solid red;
+}
+.aboutBody .aboutImgBox,
+.aboutBody .aboutContent {
+  width: 50%;
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 1%;
+
+  border: 1px solid yellow;
+}
+.aboutImgBox img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 0px 24px;
+}
+.aboutContent {
+  align-items: center;
+}
+/* upbutton */
+.scroll-to-top {
+    width: 40px;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 0 !important;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1000;
+}
+.scroll-to-top img {
+    width: 100%;
+    height: 100%;
+}
+/* footer start */
+.footer {
+    background-color: #24262b;
+    padding: 20px 0;
+}
+.footer-col {
+    width: 25%;
+    padding: 15px;
+    }
+.footer-col :last-child{
+    border: none;
+}
+.footer-col h4 {
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    transition: all 0.3s ease;
+    margin-left: -8%;
+}
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col ul li a:after{
+    border-bottom: #e91e63;
+}
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: chocolate;
+}
+.contactNum{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+}
+.companyRight{
+    width: 100%;
+    display: flex;
+    border-top: 1px solid grey;
+    justify-content: center;
+    color: white;
+}
+
+.companyRight p{
+    margin-top: 1%;
+}
+/* Google Maps iframe style */
+.map-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.map-container iframe {
+    border: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .about {
+    height: 800px;
+    display: flex;
+    margin-top: -20%;
+}
+  .aboutBody {
+    flex-direction: column;
+  }
+  .aboutBody .aboutImgBox,
+  .aboutBody .aboutContent {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .carouselBox .carousel-item {
+    height: 500px;
+    transition: all 1s ease-in-out;
+  }
+  .about{
+    margin-top: -40%;
+
+  }
+}
+@media screen and (max-width: 768px) {
+  .carouselBox .carousel-item {
+    height: 300px;
+    transition: all 1s ease-in-out;
+  }
+  .about{
+    margin-top: -85%;
+
+  }
+  .aboutImgBox {
+    height: 30%;
+  }
+  .aboutContent {
+    height: 70%;
+    border: 1px solid red;
+  }
+  .aboutContent p {
+    font-size: 14px;
+  }
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media screen and (max-width: 574px) {
+
+    .about{
+      margin-top: -112%;
+  
+    }
+    .footer-col {
+        width: 100%;
+    }
+
+  }
