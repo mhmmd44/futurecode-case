@@ -9,9 +9,8 @@
     justify-content: center;
 }
 .container .row{
-    border: 1px solid;
     padding: 2%;
-    margin-top: 3%;
+    margin-top: 1%;
 }
 .contact-form .form-group {
     margin-bottom: 20px;

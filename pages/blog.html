@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BLOG PAGE</title>
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/blog.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 
 <body>
@@ -22,13 +25,13 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.html">Anasayfa</a>
+                        <a class="nav-link active" aria-current="page" href="../index.html">Anasayfa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./pages/blog.html">Blog</a>
+                        <a class="nav-link" href="../pages/blog.html">Blog</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">İletişim</a>
+                        <a class="nav-link" href="../pages/contact.html">İletişim</a>
                     </li>
                 </ul>
             </div>
@@ -43,7 +46,7 @@
         <div class="offcanvas-body">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Anasayfa</a>
+                    <a class="nav-link active" aria-current="page" href="../index.html">Anasayfa</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
@@ -54,15 +57,167 @@
             </ul>
         </div>
     </div>
-    <!-- contact -->
-    
-
-
-    <section class="upbutton">
-        <button class="scroll-to-top btn btn-success" onclick="scrollToTop()">
-            <img src="./images/home/arrow.png" alt="">
-        </button>
+    <!--section blog -->
+    <section class="blog container">
+        <h2>BLOG</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/amerika.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Amerika</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayFirst.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/arfica.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Afrika</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayFirst.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/europa.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Avrupa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayLast.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/asia.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Asya</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detaySecond.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/arfica.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Afrika</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayFirst.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/europa.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Avrupa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayLast.html    ">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/amerika.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Amerika</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detay.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/arfica.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Afrika</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detayFirst.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="cardImgBox">
+                        <img src="../images/home/asia.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Asya</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nobis
+                            assumenda recusandae aliquid. Illum libero officiis assumenda laudantium, tempora dolores
+                            atque corporis asperiores, facere error amet tempore blanditiis praesentium expedita.</p>
+                        <a href="../pages/detaySecond.html">
+                            <button class="btn btn-success">Daha Fazla</button>
+                        </a>
+                        <p class="card-text"><small class="text-body-secondary">Son güncelleme 3 hafta önce</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- upbutton -->
+
     <!-- footer -->
     <footer class="footer">
         <div class="container">
@@ -93,12 +248,18 @@
                 <div class="col-md-4 footer-col">
                     <h4>Adress</h4>
                     <div class="map-container">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.4836115572975!2d32.74125731226378!3d39.90819238631403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347c3abe99677%3A0x19e6797eaa1d2d35!2sVia%20Green%20%C4%B0%C5%9F%20Merkezi!5e0!3m2!1str!2str!4v1715489591142!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.4836115572975!2d32.74125731226378!3d39.90819238631403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347c3abe99677%3A0x19e6797eaa1d2d35!2sVia%20Green%20%C4%B0%C5%9F%20Merkezi!5e0!3m2!1str!2str!4v1715489591142!5m2!1str!2str"
+                            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
             <div class="companyRight">
-                <p>Tüm Yasal Hakları <span class="text-warning"> Muhammed Öztürk</span>'e Aittir.</p>
+                <p>
+                    Tüm Yasal Hakları
+                    <span class="text-warning"> Muhammed Öztürk</span>'e Aittir.
+                </p>
             </div>
         </div>
     </footer>

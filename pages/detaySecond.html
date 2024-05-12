@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BLOG PAGE</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/blog.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+
+<body>
+    <!-- navbar start  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Navbar</a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/contact.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- offcanvas-start -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Sidebar</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Anasayfa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">iletişim</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--section blogDetail -->
+    <section class="container blogDetail">
+        <div class="container">
+            <h1 class="mt-5 mb-4 blogTitle"><span class="text-warning">Afrika </span><span class="text-success"> Seyahati</span></h1>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="blog-post">
+                        <div class="blogImgBox container">
+                            <img src="../images/home/asia.jpg" alt="">
+                        </div>
+                        <p class="text-muted">Muhammed Öztürk | 11 Mart 2024</p>
+                        <div class="container">
+                            <h5>Gezilen Yerler</h5>
+                            <ul>
+                                <li>X Tabiat Parkı</li>
+                                <li>X Müzesi </li>
+                                <li>X Kulesi</li>
+                                <li>X Akvaryum</li>
+                                <li>X Meclis Binası</li>
+                            </ul>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut officia, ut, error possimus id cupiditate nostrum sunt inventore, hic repellat totam itaque quam suscipit labore harum? Beatae vero tempore maxime.
+                        Maiores eaque officiis, laboriosam nobis exercitationem magnam quaerat repellat minima, in totam culpa ab earum cum, harum voluptates sapiente hic! Ab illo nobis sit sunt culpa deserunt nostrum. Veritatis, doloremque.
+                        Quam eum ea atque cum, tenetur officiis perferendis molestias sit quaerat, provident dolores? Nulla molestias aliquid, iste atque, delectus vel, reiciendis reprehenderit rem nobis sapiente vero in. Cum, officiis ut.
+                        Cupiditate maxime reiciendis recusandae hic numquam officia iste id quod quibusdam deserunt, possimus voluptatum dicta porro rerum quaerat voluptatem ut modi. Aspernatur sint tenetur qui nihil ratione perferendis incidunt molestias.
+                        Commodi dolores assumenda sed distinctio enim in illum, suscipit eveniet dicta esse reiciendis sapiente! Et nisi corporis accusantium possimus ab. Rerum laudantium aliquid earum ipsa consectetur aspernatur ratione. Ut, beatae.
+                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <h4>iletişim</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="contactNum">
+                        <p class="text-success">Bize Ulaşın</p>
+                        <p>(0212) 123 11 11</p>
+                        <p>info@futurecode.com.tr</p>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <h4>gezi zamanı</h4>
+                    <ul>
+                        <li><a href="#">Ana Sayfa</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 footer-col">
+                    <h4>Adress</h4>
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.4836115572975!2d32.74125731226378!3d39.90819238631403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347c3abe99677%3A0x19e6797eaa1d2d35!2sVia%20Green%20%C4%B0%C5%9F%20Merkezi!5e0!3m2!1str!2str!4v1715489591142!5m2!1str!2str"
+                            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="companyRight">
+                <p>
+                    Tüm Yasal Hakları
+                    <span class="text-warning"> Muhammed Öztürk</span>'e Aittir.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+</body>
+
+</html>
