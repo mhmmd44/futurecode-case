@@ -99,6 +99,11 @@
   width: 100%;
   height: 100%;
 }
+.categoryImgBox img:hover {
+    filter: brightness(1.1);
+    transform: scale(1.1);
+    transition: all 0.7s ease-in-out;
+}
 /* slider start */
 .slideVisit {
   width: 100%;
